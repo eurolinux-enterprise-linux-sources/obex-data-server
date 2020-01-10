@@ -1,0 +1,21 @@
+.TH obex-data-server "1" "30 June 2008"
+.SH NAME
+obex-data-server \- DBus service providing OBEX functionality
+.SH SYNOPSIS
+.B obex-data-server 
+[--no-daemon] [--system-bus]
+.SH DESCRIPTION
+.PP
+.B obex-data-server 
+is D-Bus service providing high-level OBEX client and server side functionality. It currently supports OPP (Object Push Profile) and FTP (File Transfer profile) profiles and Bluetooth as transport. obex-data-server exposes it's functionality through 'org.openobex' namespace in DBus Session bus.
+.SH OPTIONS
+.IP "--no-daemon"
+Do not daemonize the service
+.IP "--system-bus"
+Use DBus System bus instead of the default Session bus
+.SH AUTHOR
+.PP
+This manual page was written by Tadas Dailyda <tadas@dailyda.com>.
+.SH "REPORTING BUGS"
+Report bugs to http://bugs.muiline.com (obex-data-server project).
+
