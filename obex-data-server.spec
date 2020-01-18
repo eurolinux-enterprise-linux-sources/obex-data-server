@@ -1,6 +1,6 @@
 Name:		obex-data-server
 Version:	0.4.6
-Release:	5%{?dist}
+Release:	6%{?dist}
 Epoch:		1
 Summary:	D-Bus service for Obex access
 
@@ -64,6 +64,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/obex-data-server.1.gz
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.4.6-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.4.6-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
